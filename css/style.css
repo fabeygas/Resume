@@ -1,8 +1,6 @@
 /*
 
-Template 2080 Minimax
 
-http://www.tooplate.com/view/2080-minimax
 
 */
 
@@ -38,6 +36,26 @@ hr {
   border-color: #f2af00;
   margin: 0;
   opacity: 0.3;
+}
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 2px solid green;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
 }
 
 img {
@@ -491,4 +509,6 @@ footer span {
   #team h4 {
     padding-bottom: 30px;
   }
+  
+  
 }
